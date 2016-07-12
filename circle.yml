@@ -8,7 +8,7 @@ general:
 
 machine:
     environment:
-        ANDROID_HOME: /usr/local/android-sdk-linux
+        ANDROID_HOME: C:/Users/Purnendu/AppData/Local/Android/Sdk
 
 dependencies:
     override:
@@ -17,5 +17,5 @@ dependencies:
 
 test:
     override:
-        - (./chmod +x gradlew assemble):
+        - (chmod +x gradlew assemble):
             timeout: 360
