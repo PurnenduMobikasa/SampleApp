@@ -8,7 +8,7 @@ general:
 
 machine:
     environment:
-        ANDROID_HOME: C:/Users/Purnendu/AppData/Local/Android/Sdk
+        ANDROID_HOME: /usr/local/android-sdk-linux
 
 dependencies:
     override:
